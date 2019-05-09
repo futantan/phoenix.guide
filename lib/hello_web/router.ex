@@ -7,6 +7,7 @@ defmodule HelloWeb.Router do
     plug :fetch_flash
     plug :protect_from_forgery
     plug :put_secure_browser_headers
+    plug Locale.Plug, "en"
   end
 
   pipeline :api do
