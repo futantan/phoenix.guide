@@ -1,4 +1,7 @@
-# Hello
+# Phoenix.Guide
+
+Source code when reading [Phoenix Guide](https://hexdocs.pm/phoenix/up_and_running.html)
+
 
 To start your Phoenix server:
 
