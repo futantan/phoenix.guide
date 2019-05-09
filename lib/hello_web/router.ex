@@ -22,6 +22,8 @@ defmodule HelloWeb.Router do
     get "/hello/:messenger", HelloController, :show
   end
 
+  forward "/jobs", BackgroundJob.Plug
+
   # Other scopes may use custom stacks.
   # scope "/api", HelloWeb do
   #   pipe_through :api
